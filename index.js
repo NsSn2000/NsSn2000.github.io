@@ -9,6 +9,8 @@ btn.addEventListener('click', () => {
         document.getElementById("gif2").width = '1100';
         document.getElementById("gif2").height = '900';
         document.getElementById("gif2").style.visibility = 'visible';
+        document.getElementById("gif").width = '0';
+        document.getElementById("gif").height = '0';
         document.getElementById("gif").style.visibility = 'none';
 
 
@@ -20,6 +22,8 @@ btn.addEventListener('click', () => {
         document.getElementById("gif").width = '1100';
         document.getElementById("gif").height = '900';
         document.getElementById("gif").style.visibility = 'visible';
+        document.getElementById("gif2").width = '0';
+        document.getElementById("gif2").height = '0';
         document.getElementById("gif2").style.visibility = 'none';
 
 
